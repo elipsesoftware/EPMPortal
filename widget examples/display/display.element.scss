@@ -1,0 +1,39 @@
+﻿:host {
+  cursor: default;
+
+  .portal-display {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 8px 5px 5px 8px;
+    box-sizing: border-box;
+    font-weight: lighter;
+  }
+
+  .portal-display-content {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    &-text {
+      white-space: nowrap;
+      text-align: center;
+    }
+
+    &-unit {
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  }
+
+  .portal-display-description {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

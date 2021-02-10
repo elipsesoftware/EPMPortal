@@ -1,0 +1,23 @@
+<a class="portal-display" [element-link]="drillDown">
+  <div>
+    <span class="portal-widget-title" *ngIf="!isNullOrEmpty(title)">
+      {{ title }}
+    </span>
+    <span class="portal-widget-subtitle" *ngIf="!isNullOrEmpty(subtitle)">
+      {{ subtitle | stringify }}
+    </span>
+  </div>
+  <div class="portal-display-content">
+    <span class="portal-display-content-text" [matTooltip]="formatText" #textContent>
+      {{ formatText }}
+    </span>
+    <span class="portal-display-content-unit" *ngIf="!isNullOrEmpty(unit)" [style.font-size]="unitFontSize">
+      {{ unit }}
+    </span>
+  </div>
+  <div [hidden]="isNullOrEmpty(description)">
+    <span class="portal-display-description">
+      {{ description }}
+    </span>
+  </div>
+</a>

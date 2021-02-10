@@ -1,0 +1,9 @@
+$is-dark: map_get($theme, is-dark);
+$primary: map-get($theme, primary);
+
+.portal-display {
+
+  &-content-text {
+    color: mat-color($primary, A400);
+  }
+}
