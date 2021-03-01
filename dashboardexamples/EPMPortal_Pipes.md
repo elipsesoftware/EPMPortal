@@ -73,6 +73,7 @@ Por exemplo, você pode ter feito um cálculo usando o dataset Typescript ou Pro
  {"nome": "maquina 2", "valor": 8}]*
 
 Use um Pipe para interpretar esses valores:
+
 ![how to use json pipe](./images/pipe_json.PNG)
 
 Para mostrar esses dados em um BarChart:
