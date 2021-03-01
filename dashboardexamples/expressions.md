@@ -5,7 +5,7 @@ O EPM Portal possui uma ferramenta chamada **Pipe**, que permite fazer cálculos
 
 Para inserir um **Pipe**, passe o mouse sobre o campo e clique no símbolo ao lado:
 
-![how to insert pipe](..\dashboardexamples\images\pipe_insert.PNG)
+![how to insert pipe](./images/pipe_insert.PNG)
 
 No campo **Pipe**, selecione a opção que deseja e as opções relacionadas ao tipo do Pipe serão mostradas. 
 
