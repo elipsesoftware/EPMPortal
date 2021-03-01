@@ -9,7 +9,7 @@ Para inserir um **Pipe**, passe o mouse sobre o campo e clique no símbolo ao la
 
 No campo **Pipe**, selecione a opção que deseja e as opções relacionadas ao tipo do Pipe serão mostradas. 
 
-![how to insert pipe](..\dashboardexamples\images\pipe_screen.PNG)
+![how to insert pipe](./images/pipe_screen.PNG)
 
 O campo **Test Input** irá mostrar o valor atual da variável, e pode ser alterado para testes. O campo **Test Output** mostrará o resultado.
 Quando o Pipe mostrar contorno em verde, indicará que conseguiu resolver a formatação ou conversão. Se o contorno for da cor laranja, indicará que há algum erro.
@@ -35,14 +35,14 @@ Mostrar Hora e Minuto:
 
 *HH:MM*
 
-![Pipe Expression](..\dashboardexamples\images\pipe_formatdate.PNG)
+![Pipe Expression](./images/pipe_formatdate.PNG)
 
 
 ## NumberFormat
 
 Esse Pipe ajudará a formatar os valores numéricos. Utiliza parra isso a biblioteca http://numeraljs.com/.  Veja um exemplo de transformação do número **10000** para o formato **R$ 10 mil**.
 
-![Pipe Expression](..\dashboardexamples\images\pipe_numberformat.PNG)
+![Pipe Expression](./images/pipe_numberformat.PNG)
 
 
 ## Expression
@@ -57,7 +57,7 @@ Exemplo de expressão mais complexa:
 
 *value ^ 2 + 2***value + 10*
 
-![Pipe Expression](..\dashboardexamples\images\pipe_expression.PNG)
+![Pipe Expression](./images/pipe_expression.PNG)
 
 ## Json
 
@@ -73,11 +73,11 @@ Por exemplo, você pode ter feito um cálculo usando o dataset Typescript ou Pro
  {"nome": "maquina 2", "valor": 8}]*
 
 Use um Pipe para interpretar esses valores:
-![how to use json pipe](..\dashboardexamples\images\pipe_json.PNG)
+![how to use json pipe](./images/pipe_json.PNG)
 
 Para mostrar esses dados em um BarChart:
 
-![how to use json pipe in Barchart](..\dashboardexamples\images\bar_chart.PNG)
+![how to use json pipe in Barchart](./images/bar_chart.PNG)
 
 
 
