@@ -10,7 +10,7 @@ Tendo como recursos disponibilizados no exemplo:
 1.	Restaure a tabela dentro do banco de dados e o dashboard do EPM Portal;
 2.	Na área de administração do EPM Portal, crie a configuração com o banco de dados, exemplo:
 
-![Config connection db](./imagens/ConfigConnectionDB.png)
+![Config connection db](./images/ConfigConnectionDB.png)
 
 3.	Caso não tenha utilizado o mesmo nome de conexão com o banco de dados conforme exemplo do passo 2 (DataSourcePenDBEPMPortal), é necessário reconfigurar as conexões dos DataSets SQL:
     - Acesse o dashboard;
@@ -18,7 +18,7 @@ Tendo como recursos disponibilizados no exemplo:
     - Acesse a área de datasets;
     - Para cada dataset SQL, clique em editar e altere as configurações de edição, conforme exemplo:
 
-![Config dataset connection db](./imagens/ConfigDataSetConnectionDB.png)
+![Config dataset connection db](./images/ConfigDataSetConnectionDB.png)
 
 5.	Continuando na área de configuração de retorno dos Paths do modelo de dados do EPM, é importante configurar o código do dataset TypeScript “searchItens” para encontrar o nível de acesso que as medidas se encontram para montagem da lista de seleção das penas, para deve-se configurar Inputs:
     - No input “rootpath”: Informar o item raiz para acesso as medidas, incluindo o nome da interface, exemplo: “/1:iE3/1:Dados”
