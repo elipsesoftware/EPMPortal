@@ -7,8 +7,9 @@ Tendo como recursos disponibilizados no exemplo:
 - Permite adição e remoção de coleções de medidas.
 
 ## Configuração:
-1.	Restaure a tabela dentro do banco de dados e o dashboard do EPM Portal;
-2.	Na área de administração do EPM Portal, crie a configuração com o banco de dados, exemplo:
+1.	Baixe os arquivos da pasta files do Github; 
+2.	Restaure a tabela dentro do banco de dados (sqlquery_Table_EPMPortal_PenDB) e o dashboard do EPM Portal (DinamicChartEPMPortal);
+3.	Na área de administração do EPM Portal, crie a configuração com o banco de dados, exemplo:
 
 ![how to insert pipe](./images/ConfigConnectionDB.png)
 
