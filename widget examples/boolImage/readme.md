@@ -22,4 +22,4 @@ O widget boolImage permite a exibição dinâmica de imagens com base em um valo
 Para registrar o widget deve-se:
 - Acessar a área de Extensões (*Extensions*) do EPM Portal
 - Clicar em instalar (*Install*)
-- Localizar o widget.apk e clicar em abrir (*Open*)
+- Localizar o widget.apk (magsWidgetBoolImage.epk) e clicar em abrir (*Open*)
