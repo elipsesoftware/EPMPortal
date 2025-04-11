@@ -1,5 +1,5 @@
 import { BaseProcessor, IExecuteContext } from '@elipse/processor-lib';
-import * as webapi from '@elipse/webapi-common';
+import * as webapi from '@elipse/webapi/common';
 import * as portal from '@elipse/portal/processor';
 
 export class CodeProcessor extends BaseProcessor {
